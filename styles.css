@@ -1,0 +1,50 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #6f5e53;
+    color: #fff;
+    padding: 1vw 5vw;
+}
+
+
+/* Navigation Bar */
+#topNav{
+    background-color: #02161c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vw;
+}
+
+#topNav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+#topNav li{
+    padding: 0 2vw;
+}
+
+#topNav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#topNavButton{
+    border: .5vw solid #650000;
+    height: 7vw;
+    width: 15vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+
+#sectionOne{
+    background-image: url("img/baguetteSandies.png");
+}
